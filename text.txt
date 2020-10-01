@@ -1,0 +1,4 @@
+npm init -y (Load package.json)
+npm i (Install all dependencies)
+npm i jshint , nodemon --save-dev (devDependencies)
+npm i -g Sequelize-cli ( initialize our Node project as an ORM )
