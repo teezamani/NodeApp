@@ -2,3 +2,5 @@ npm init -y (Load package.json)
 npm i (Install all dependencies)
 npm i jshint , nodemon --save-dev (devDependencies)
 npm i -g Sequelize-cli ( initialize our Node project as an ORM )
+install Postgre , insta pgadmin and run as admin , create db 
+updte config.json file 
