@@ -2,5 +2,15 @@ npm init -y (Load package.json)
 npm i (Install all dependencies)
 npm i jshint , nodemon --save-dev (devDependencies)
 npm i -g Sequelize-cli ( initialize our Node project as an ORM )
-install Postgre , insta pgadmin and run as admin , create db 
-updte config.json file 
+install Postgre , install pgadmin and run as admin , create db 
+update config.js file 
+create .sequelizerc file and add the paths 
+sequelize model:generate --name User --attributes login:string,password:string ==This is another command from Sequelize framework that creates a new model in the project—the user model, to be exact. This model will be important to our authentication structure
+DATABASE_URL=
+DEV_DATABASE_URL=postgres://<db_user>:<db_password>@127.0.0.1:5432/dev_db
+TEST_DATABASE_URL=postgres://<db_user>:<db_password>@127.0.0.1:5432/test_db
+DATABASE_URL=
+DEV_DATABASE_URL=postgres://postgres:ad3poju@127.0.0.1:5432/beerappdev
+TEST_DATABASE_URL=postgres://postgres:ad3poju@127.0.0.1:5432/beerappdev
+DATABASE_URL=postgres://{user}:{password}@{hostname}:{port}/{database-name}
+DATABASE=database_name
